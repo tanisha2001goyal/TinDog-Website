@@ -1,0 +1,204 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Setions */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.white-sec{
+  background-color: white;
+}
+
+.color-sec{
+  background-color: #F94C68;
+  color: white;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.title-head{
+  font-size: 3.5rem;
+}
+
+/* Navbar: */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+
+/* Downolad buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title image */
+
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  height: 85%;
+  right: 25%;
+}
+
+
+/* Features Section */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feat-h3{
+  font-size: 1.5rem;
+}
+
+.feat-points{
+  padding: 5%;
+}
+
+.feat-icons{
+  color: #EF8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.feat-icons:hover{
+  color: #FF4C68;
+}
+
+
+.feat-p{
+  color: #8F8F8F;
+}
+
+
+/* Testimonials Section */
+
+#testimonials{
+  background-color: #EF8172;
+}
+
+.test-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+/* Press Section grouped with Testimonials section */
+
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 6.25rem;
+}
+
+.price-h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-h3{
+  font-size: 1.5rem;
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+/* Call To Action (cta) Section */
+
+#cta{
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+  line-height: 3;
+}
+
+.foot-icons{
+  padding: 0.5rem 0.8rem;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.foot-icons:hover{
+  color: #FF4C68;
+}
+
+.foot-p{
+  color: #A7BBC7;
+}
+
+.foot-ilink{
+  color: black;
+}
+.foot-ilink :hover{
+  color: #FF4C68;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    height: 100%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
