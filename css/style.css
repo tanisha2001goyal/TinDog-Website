@@ -201,4 +201,12 @@ h1, h2, h3, h4, h5, h6{
   #title{
     text-align: center;
   }
+  
+  #features .container-fluid{
+    padding: 7% 10%;
+  }
+
+  .foot-ilink{
+    font-size: 2rem;
+  }
 }
